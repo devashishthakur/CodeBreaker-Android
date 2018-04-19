@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">Codebreaker</string>
+
+    <string name="about">
+        \n\n<b>ABOUT AND CREDITS</b>\n\n
+        <b>Game Designer :</b> Devashish Thakur
+        \n\n
+        <b>Game Programmer :</b> Devashish Thakur\n\n
+        <b>Contact us :</b> dksanu3@gmail.com\n\n
+        \n<b>CREDITS</b>\n\n
+        <b>Icons :</b> https://icons8.com/icon/93/Lock\n\n
+
+    </string>
+    <string name="head"><b><i>Codebreaker</i></b></string>
+    <string name="info">
+        \n<b>YOU MUST READ THIS BEFORE PLAYING THIS GAME</b>\n\n\n
+        There is a four digit number made of 4 unique numbers between 1 - 9 you have to guess each one of them in 5 trials
+        \n\n
+
+        \nThere are few hints which will help you to guess those numbers
+        \n\n
+        \nafter you enter the four numbers and enter <b>GUESS!</b> button, colour of each number will change
+        \n
+        \neach color  has its different meaning
+        \n\n\n
+        <b><font color="#3cba3a">GREEN</font></b> - This means you have guessed the right number and it is in its correct place\n\n
+
+        <b><font color="#ef2b42">RED</font></b>   - This means you have guessed the wrong number and this number is not one of the four numbers\n\n
+
+        <b><font color="#5d9ae1">BLUE</font></b>  - This means you have guessed the right number but it is not in its correct place
+
+        \n\n<b>DETAILED TUTORIAL ON HOW TO PLAY</b>
+
+        \n\nSuppose you guessed number <b><font color="#3cba3a">1</font><font color="#ef2b42"> 2  3</font>  <font color="#5d9ae1">4</font></b>\n\n
+
+        1 turns <b>Green</b>\n
+        2 and 3 turns <b>Red</b>\n
+        4 turns <b>Blue</b>\n
+
+        \nThis means that 1 is at its right place, leave it as it is\n
+        \n2 and 3 turns Red, this means 2 and 3 are not one of the four number\n
+        \n4 turns Blue, this means 4 is not in its correct position, it could be at 1st , 2nd or 3rd position\n\n
+        Then you can try to guess the number again, you have 1 at its right position, you can try to change the position of 4 and replace 2 and 3 with some other number like 5 and 6\n\n
+        Suppose you guessed number <b><font color="#3cba3a">1</font>  <font color="#5d9ae1">5</font>  <font color="#3cba3a">4</font>  <font color="#5d9ae1">6</font> </b>
+        \n\n\n
+        1 and 4 turns<b>Green</b>
+        5 and 6 turns<b>Blue</b>
+
+        \n\nThis means you are near to victory, 5 and 6 are at their wrong position, just change their position and you are done
+        \n\n\n
+        Supposed you guessed number<b><font color="#3cba3a"> 1  6  4  5</font></b>\n\n
+
+        and all of them turns <b>Green</b>
+        \n\nCongratualtions , You have cracked the code\n
+
+        \n\n\n<b>MODES OF PLAY</b>\n\n
+        EASY - You will have 5 chances to guess the right number\n\n
+        MEDIUM - You will have 4 chances to guess the right number\n\n
+        HARD - You will have 3 chances to guess the right number\n\n\n\n\n
+    </string>
+
+</resources>

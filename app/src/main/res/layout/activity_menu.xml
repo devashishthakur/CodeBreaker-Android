@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.blogspot.devashishthakur.guessthenumber.MenuActivity"
+    android:background="@color/bg">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Codebreaker"
+        android:textSize="35dp"
+        android:textColor="@color/textColor"
+        android:textStyle="bold"
+        android:typeface="serif"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/playB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:text="Play"
+        android:onClick="jumpToOther"
+        android:textStyle="bold"
+        android:background="@android:drawable/editbox_background_normal"/>
+
+    <Button
+        android:id="@+id/helpB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignTop="@id/playB"
+        android:layout_marginTop="80dp"
+        android:text="Help"
+        android:textStyle="bold"
+        android:onClick="jumpToHelp"
+        android:background="@android:drawable/editbox_background_normal"/>
+
+    <Button
+        android:id="@+id/aboutB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignTop="@id/helpB"
+        android:layout_marginTop="80dp"
+        android:text="About"
+        android:textStyle="bold"
+        android:onClick="jumpToAbout"
+        android:background="@android:drawable/editbox_background_normal"/>
+
+
+    <Button
+        android:id="@+id/exitB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignTop="@id/aboutB"
+        android:layout_marginTop="80dp"
+        android:text="Exit"
+        android:textStyle="bold"
+        android:onClick="jumpToExit"
+        android:background="@android:drawable/editbox_background_normal"/>
+
+
+
+    <Button
+        android:id="@+id/medB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/playB"
+        android:layout_alignStart="@+id/playB"
+        android:layout_alignTop="@+id/playB"
+        android:text="MEDIUM"
+        android:visibility="gone"
+        android:onClick="onMedCLick"
+        android:textStyle="bold"
+        android:background="@android:drawable/editbox_background_normal"/>
+
+    <Button
+        android:id="@+id/easyB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/playB"
+        android:layout_marginLeft="28dp"
+        android:layout_marginStart="28dp"
+        android:visibility="gone"
+        android:text="EASY"
+        android:onClick="onEasyCLick"
+        android:textStyle="bold"
+        android:background="@android:drawable/editbox_background_normal"/>
+
+    <Button
+        android:id="@+id/hardB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/playB"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="24dp"
+        android:visibility="gone"
+        android:text="HARD"
+        android:onClick="onHardCLick"
+        android:textStyle="bold"
+        android:background="@android:drawable/editbox_background_normal"/>
+
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-5044797211247790/9622943777">
+    </com.google.android.gms.ads.AdView>
+
+</RelativeLayout>
